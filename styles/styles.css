@@ -11,6 +11,7 @@ body {
     background: #474bff;
     background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
     background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+    
 }
 
 #container {
@@ -20,12 +21,14 @@ body {
     align-items: center;
     width: 80%;
     height: 20em;
-    border-radius: 13px;
+    border-radius: 15px;
 }
 
 .container-block {
     width: 25%;
-    background-color: rgb(136, 136, 182);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
 }
 
 .container-block span {
